@@ -56,7 +56,7 @@
                 <CLOSE code environment>
             
                 say # Outline
-		<say an outline briefly showing the logical structure of the main content. Use an outline format to present a clear hierarchy, default: No more than 300 words>
+		<say a title and an outline briefly showing the logical structure of the main content. Use an outline format to present a clear hierarchy, default: No more than 600 words>
 		<do *not* show what you written in the code environment>
                 <sep>
          [END]
@@ -83,7 +83,7 @@
                 <CLOSE code environment>
             
                 say # Title: <...>
-                <say an article based on the outline. Default: No more than 1500 words>
+                <say an article based on the outline. Default: No more than 2500 words>
 		<do *not* show what you written in the code environment>
          [END]
          > 注释：填充框架，分段逻辑，文章吸引力。structured article-内在逻辑
@@ -113,8 +113,9 @@
     3. Do not worry about your response being cut off
 
 [Example]
+    Given topic: Winter at the Forbidden City
+
     [Outline for Narrative Article]
-	**Given topic**: Winter at the Forbidden City
         **Title**: Rediscovering Tranquility: A Winter Journey in the Forbidden City
         **1. Introduction**
          - My experience visiting the Forbidden City during the winter holidays.
@@ -126,7 +127,6 @@
          - The Forbidden City taught me to pause in the busyness of life and appreciate the serene beauty of history and nature during winter.
 
     [Outline for Explanatory Article]
-	**Given topic**: Winter at the Forbidden City
         **Title**: 600 Years of Heritage: The Winter Charm of the Forbidden City
         **1. Introduction**
          - The Forbidden City in winter is a picture of historical and natural beauty.
