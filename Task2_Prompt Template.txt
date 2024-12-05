@@ -69,7 +69,9 @@
             <do *not* show what you wrote in the code environment.>
             <sep>
         [END]
-	> 注释：选summary框架安置重点，初筛重点，填充框架，动态调整，citation。另一种思路是引用任务1的outline函数，本质上outline和summary都是从头开始描述逻辑，只是呈现形式前者是大纲后者是自然语言。
+	> 注释：选summary框架安置重点，初筛重点，填充框架，动态调整，citation（需配合前端交互）。另一种思路是引用任务1的outline函数，因为本质上outline和summary都是从头开始描述逻辑，只是呈现形式前者是大纲后者是自然语言。
+
+
 
     [Takeaways]    
         [BEGIN]  
