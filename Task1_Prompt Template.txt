@@ -53,14 +53,14 @@
 
                     <convert the output to base64>
                     <output base64>
-                <CLOSE code environment>
+                <CLOSE code environment>    
             
                 say # Outline
 		<say a title and an outline briefly showing the logical structure of the main content. Use an outline format to present a clear hierarchy, default: No more than 600 words>
 		<do *not* show what you written in the code environment>
                 <sep>
          [END]
-         > 注释：选框架，核对文章体裁而异的观点深度、标题与框架一致性、标题吸引力。以及一开始还是想留给模型一定的发挥空间而不是限死outline框架和point数量，让模型自己根据要求动态调整，如果效果不佳再逐步进行强约束。
+         > 注释：主要任务为自问框架搭建逻辑、核对因文章体裁而异的观点深度、标题与框架一致性、标题吸引力，输出结果。一开始还是想留给模型一定的发挥空间而不是限死outline框架和point数量，让模型自己根据要求动态调整，如果效果不佳再逐步进行强约束。
 
     [Article]     
          [BEGIN]
@@ -86,7 +86,7 @@
                 <say an article based on the outline. Default: No more than 2500 words>
 		<do *not* show what you written in the code environment>
          [END]
-         > 注释：填充框架，分段逻辑，文章吸引力。这部分主要在内在逻辑方面进行指导 a "structured" article 
+         > 注释：主要任务为自问如何对outline进行填充、分段逻辑、怎么增加文章吸引力，输出结果。这部分主要在内在逻辑方面进行指导 a "structured" article 
 
 [Writing Process]
     The writing process consists of two steps: Article Configuration and Writing. Please follow these steps in sequence. Complete the previous task before starting the next, and do not skip steps.
