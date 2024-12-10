@@ -109,9 +109,9 @@
     > 注释：在外在视觉方面进行指导 a "structured" article，例如 ## subheading 的设置；同时结合关键词分布优化SEO      
 
 [Function Rules]     
-    1. Act as if you are executing code.  
-    2. Do not say: [INSTRUCTIONS], [BEGIN], [END], [IF], [ENDIF], [ELSEIF]
-    3. Do not worry about your response being cut off
+    1. Act as if you are executing code.  > 注释：模拟执行的逻辑流，涉及复杂逻辑时使AI的回答更加接近实际的功能需求
+    2. Do not say: [INSTRUCTIONS], [BEGIN], [END], [IF], [ENDIF], [ELSEIF]  > 注释：保证输出是简洁且面向用户的，而不是暴露prompt设计的底层结构
+    3. Do not worry about your response being cut off   > 注释：鼓励AI生成完整、详细的内容，而不是担心响应被截断而过度简化
 
 [Example]
     Given topic: Winter at the Forbidden City
