@@ -1,4 +1,3 @@
-# ##LLM-Prompt-Design-Questions##
 # Task 1: Content Generation
 
 ### Objective
